@@ -1,0 +1,39 @@
+/*estilos*/
+body{
+    height: 100%;
+    background-color: rgba(248, 220, 39, 0.85);
+}
+
+/* login view-styles*/
+.profile-header{
+    margin-top: 5vh;
+}
+
+.profile-header-container{
+    margin: 0 auto;
+}
+
+img.img-profile{
+    padding-top: 15%;
+    border-radius: 50%;
+    border-color: deepskyblue;       
+}
+
+#logo-face,
+#button-auth{
+    padding-top: 5vh;
+}
+
+#button-auth{
+    text-align: center;
+}
+
+#or{
+    padding-top: 7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+#loginlogin{
+    margin-top: 3vh;
+}

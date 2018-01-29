@@ -1,4 +1,7 @@
 /*estilos*/
+*{
+    box-sizing: border-box;
+}
 body{
     height: 100%;
     background-color: rgba(248, 220, 39, 0.85);
@@ -41,12 +44,19 @@ img.img-profile{
 /* timeline-styles */
 .navbar-brand{
     padding: 0;
-    height: auto;
+    height: 4vh;
 }
 
 .navbar-brand>img{
     width: auto;
     height: 100%;
     padding-top: 0;
+}
+
+/***** timeline view- estilo a la parte de publicación y crear eventos*****/
+.publish-box{
+    background-color: tomato;
+    position: relative;
+    height: auto;
 }
 

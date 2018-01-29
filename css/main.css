@@ -37,3 +37,16 @@ img.img-profile{
 #loginlogin{
     margin-top: 3vh;
 }
+
+/* timeline-styles */
+.navbar-brand{
+    padding: 0;
+    height: auto;
+}
+
+.navbar-brand>img{
+    width: auto;
+    height: 100%;
+    padding-top: 0;
+}
+

@@ -16,7 +16,7 @@ body{
 img.img-profile{
     padding-top: 15%;
     border-radius: 50%;
-    border-color: deepskyblue;       
+    border-color: deepskyblue;
 }
 
 #logo-face,
@@ -50,3 +50,13 @@ img.img-profile{
     padding-top: 0;
 }
 
+.profile-user {
+  height: 500px;
+  width: 100%;
+  background: #6aabe3;
+}
+.cover-page {
+  background: #6aabe3;
+  width: 100%;
+  height: 100%;
+}

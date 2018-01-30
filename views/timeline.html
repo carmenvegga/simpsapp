@@ -57,12 +57,13 @@
                     <i class="fa fa-picture-o fa-2x" aria-hidden="true"></i>
                 </div>
                 <div class="col-xs-2">
-                    <a href="#">
+                    <a type="button" data-toggle="modal" data-target="#myModal">
+                        <!-- es el botón que despliega el modal de crear evento-->
                         <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>
                 <div class="col-xs-2">
-                    <a href="#">
+                    <a type="button" data-toggle="modal" data-target="#myModal2">
                         <i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -79,7 +80,125 @@
 
     <!-- modales -->
     <!-- modal de crear evento -->
-    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="http://fillmurray.com/40/40" alt="pic profile">
+                        </div>
+                        <div class="col-xs-4">
+                            <h4 class="modal-title" id="myModalLabel">Eventos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <span>Nombre del evento</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" placeholder="Agrega">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <span>Ubicación del Evento</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" placeholder="Agrega">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <span>Fecha/Hora</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" placeholder="Agrega">
+                        </div>
+                    </div>
+                    <hr>
+                    <span>¿Organizas un maratón?</span>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <span>¿Qué temporada exhibes?</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" placeholder="Agrega">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <span>¿Cuántos capítulos exhibes?</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" placeholder="Agrega">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Crear Evento</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal de marketplace -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="http://fillmurray.com/40/40" alt="profile-pic">
+                        </div>
+                        <div class="col-xs-7">
+                            <h4 class="modal-title" id="myModalLabel">¿Qué vendes?</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <input type="file" id="exampleInputFile">
+                        <!-- con este botón se puede seleccionar el archivo que deseas vender-->
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="text" placeholder="Precio">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="text" placeholder="Descripción del producto">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Publicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 

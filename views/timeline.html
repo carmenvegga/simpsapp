@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- ESTA ES LA SEGUNDA VISTA DESPUÉS DEL LOGIN -->
 
 <head>
     <meta charset="utf-8" />
@@ -14,6 +15,7 @@
 
 <body>
     <nav class="navbar navbar-inverse">
+        <!-- nav bar de la segunda vista: timeline-->
         <!-- nav bar -->
         <div class="container-fluid">
             <div class="navbar-header">
@@ -22,8 +24,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="profile.html">
-                    <img src="http://fillmurray.com/50/50" class="img-responsive col-xs-12" alt="user-pic">
+                <a id="navbrand" class="navbar-brand" href="profile.html">
+                    <img id="timeline-pic" src="http://fillmurray.com/50/50" class="img-responsive col-xs-12" alt="user-pic">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -38,19 +40,46 @@
     </nav>
 
     <section class="publish-box container">
-        <div class="row">
+        <!-- en este section se maqueta la parte donde el usuario puede publicar (post, imágenes) o bien crear un evento o bien poner a la venta algo relacionado con los simpson(usuarios premium)-->
+        <div id="publish-space" class="row">
             <div class="photo-user-publish col-xs-offset-2 col-xs-1">
                 <img src="http://fillmurray.com/40/40" alt="pic-profile">
             </div>
             <div class="post col-xs-offset-1 col-xs-6">
                 <textarea name="text" id="text" maxlength="280" placeholder="¿Quieres compartir algo?"></textarea>
-                <hr>
             </div>
         </div>
+        <hr>
         <div class="row">
-            
+            <!--  eventos y marketplace-->
+            <div class="icons col-xs-offset-2 col-xs-10">
+                <div class="col-xs-2">
+                    <i class="fa fa-picture-o fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-2">
+                    <a href="#">
+                        <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-xs-2">
+                    <a href="#">
+                        <i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-xs-2">
+                    <a href="#">
+                        <button id="btn" type="button" class="btn btn-default">Publicar</button>
+                    </a>
+                </div>
+            </div>
         </div>
+        <!-- este div container representa el lugar en donde se pintarán las publicaciones de los usuarios-->
+        <div class="container-publish"></div>
     </section>
+
+    <!-- modales -->
+    <!-- modal de crear evento -->
+    
 
 
 

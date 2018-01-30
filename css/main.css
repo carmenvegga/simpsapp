@@ -115,7 +115,16 @@ img.img-profile{
 #publish-space{
     margin-top: 3vh;
 }
+
+
+.new-boxes{
+    width: 100%;
+    height: 7vh;
+    background: #4ba6f9;
+    margin-top: 10vh;
+
 /* estilos timeline view */
 .redirect-profile {
+
 
 }

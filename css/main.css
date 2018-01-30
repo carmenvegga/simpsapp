@@ -50,7 +50,7 @@ img.img-profile{
 
 /* estilos profile view */
 .bg-profile {
-  background-color: #aac6d5;
+  background-color: #ffffff;
 }
 .navbar-main {
   margin-bottom: 0;
@@ -71,11 +71,10 @@ img.img-profile{
 .profile-user {
   width: 100%;
   height: 12em;
-  background: #6aabe3;
 }
 
 .cover-page {
-    background: #6aabe3;
+    background: #4ba6f9;
     width: 100%;
     height: 100%;
 }
@@ -86,10 +85,12 @@ img.img-profile{
 }
 
 .nav-tabs {
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #2978ca;
 }
-.tab-button {
-  background-color: transparent;
+
+.tittle-profile {
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .text-tabs-profile {

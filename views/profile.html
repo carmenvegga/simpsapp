@@ -44,15 +44,33 @@
     <div class="cover-page">
     </div>
   </section>
-  <section class="tabs-profile">
-    <div class="row">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="col-xs-6 text-center"><a class="tab-button" href="#">Posts</a></li>
-        <li role="presentation" class="active col-xs-6 text-center"><a class="tab-button" href="#">About</a></li>
-      </ul>
-    </div>
 
+  <section class="tabs-profile">
+
+    <div class="container row">
+      <ul class="nav nav-tabs">
+        <li class="col-xs-6 text-center"><a data-toggle="tab" href="#posts-profile">Posts</a></li>
+        <li class="active col-xs-6 text-center"><a data-toggle="tab" href="#about-profile">About</a></li>
+      </ul>
+
+      <div class="tab-content text-tabs-profile">
+        <div id="posts-profile" class="tab-pane fade">
+          <h3>Posts</h3>
+          <p>(imágenes)</p>
+        </div>
+        <div id="about-profile" class="tab-pane fade in active">
+          <h3>About</h3>
+          <h5>Información</h5>
+          <h5>Formación y empleo</h5>
+          <h5>Amigos</h5>
+          <h5>Capítulo favorito</h5>
+          <button type="button" class="btn btn-primary btn-lg btn-follow">Follow</button>
+        </div>
+      </div>
+    </div>
   </section>
+
+
 
   <!-- link al app.js y a bootstrapJS.min -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -1,7 +1,5 @@
 //Javascript//
-$(document).ready(loadPage);
+$(document).ready();
 
 //timeline-view//
-function loadPage(){
-    $('.collapse').collapse();
-}
+

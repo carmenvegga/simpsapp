@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <script src="https://use.fontawesome.com/62b5493aa6.js"></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css"/>
 </head>
 
 <body class="bg-profile">
   <nav class="navbar navbar-static-top navbar-inverse navbar-main" role="navigation">
     <div class="container-fluid">
       <!--mobile display-->
-      <div class="navbar-header">
+      <div class="navbar-header navheader-position">
         <div class="navbar-elements">
           <span class="glyphicon glyphicon-cog"></span>
         </div>
@@ -28,7 +28,6 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
       </div>
       <!--nav content for toggling-->
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -43,6 +42,7 @@
 
   <section class="profile-user">
     <div class="cover-page">
+      <img class="center-block img-profile-user" src="http:fillmurray.com/100/100" alt="">
     </div>
   </section>
 
@@ -50,29 +50,25 @@
     <div class="container row">
       <ul class="nav nav-tabs">
 
-        <li class="col-xs-6 text-center"><a class="tittle-profile"data-toggle="tab" href="#posts-profile">Posts</a></li>
-        <li class="active col-xs-6 text-center"><a data-toggle="tab" href="#about-profile">About</a></li>
-
-        <li class="col-xs-6 text-center">
-          <a data-toggle="tab" href="#posts-profile">Posts</a>
-        </li>
-        <li class="active col-xs-6 text-center">
-          <a data-toggle="tab" href="#about-profile">About</a>
-        </li>
+        <li class="col-xs-6 text-center"><a class="tittle-profile" data-toggle="tab" href="#posts-profile">Posts</a></li>
+        <li class="active col-xs-6 text-center"><a class="tittle-profile" data-toggle="tab" href="#about-profile">About</a></li>
 
       </ul>
       <div class="tab-content text-tabs-profile">
         <div id="posts-profile" class="tab-pane fade">
-          <h3>Posts</h3>
+          <h4>Posts</h4>
           <p>(imágenes)</p>
         </div>
         <div id="about-profile" class="tab-pane fade in active">
           <h3>About</h3>
-          <h5>Información</h5>
-          <h5>Formación y empleo</h5>
-          <h5>Amigos</h5>
-          <h5>Capítulo favorito</h5>
-          <button type="button" class="btn btn-primary btn-lg btn-follow">Follow</button>
+          <h5 class="tittle-profile">Información</h5>
+          <h5 class="tittle-profile">Formación y empleo</h5>
+          <h5 class="tittle-profile">Amigos</h5>
+          <h5 class="tittle-profile">Capítulo favorito</h5>
+          <div class="btn-follow">
+            <button type="button" class="btn btn-primary btn-lg">Follow</button>
+          </div>
+
         </div>
       </div>
     </div>

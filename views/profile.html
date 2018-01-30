@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Profile</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <script src="https://use.fontawesome.com/62b5493aa6.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
 </head>
-<body>
 
-  <nav class="navbar navbar-static-top navbar-inverse" role="navigation">
+<body class="bg-profile">
+  <nav class="navbar navbar-static-top navbar-inverse navbar-main" role="navigation">
     <div class="container-fluid">
       <!--mobile display-->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <!-- <span class="glyphicons glyphicons-cogwheel"></span> -->
-        </a>
+        <div class="navbar-elements">
+          <span class="glyphicon glyphicon-cog"></span>
+        </div>
+        <div class="navbar-elements">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
       </div>
       <!--nav content for toggling-->
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -37,15 +42,22 @@
 
   <section class="profile-user">
     <div class="cover-page">
-        <img src="http://fillmurray.com/100/100" alt="">
+    </div>
+  </section>
+  <section class="tabs-profile">
+    <div class="row">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="col-xs-6 text-center"><a class="tab-button" href="#">Posts</a></li>
+        <li role="presentation" class="active col-xs-6 text-center"><a class="tab-button" href="#">About</a></li>
+      </ul>
     </div>
 
   </section>
-
 
   <!-- link al app.js y a bootstrapJS.min -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="../js/app.js"></script>
 </body>
+
 </html>

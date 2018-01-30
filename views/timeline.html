@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <section class="publish-box container">
+    <section class="publish-box container" id="publications">
         <!-- en este section se maqueta la parte donde el usuario puede publicar (post, imágenes) o bien crear un evento o bien poner a la venta algo relacionado con los simpson(usuarios premium)-->
         <div id="publish-space" class="row">
             <div class="photo-user-publish col-xs-offset-2 col-xs-1">
@@ -69,13 +69,13 @@
                 </div>
                 <div class="col-xs-2">
                     <a href="#">
-                        <button id="btn" type="button" class="btn btn-default">Publicar</button>
+                        <button id="btn" type="button" class="btn btn-default" disabled>Publicar</button><!-- botón que añade el contenido que publicará el usuario-->
                     </a>
                 </div>
             </div>
         </div>
         <!-- este div container representa el lugar en donde se pintarán las publicaciones de los usuarios-->
-        <div class="container-publish"></div>
+        <div class="container-publish" id="container-post"></div>
     </section>
 
     <!-- modales -->

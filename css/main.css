@@ -75,25 +75,26 @@ button > i {
 
 /* estilos profile view */
 .bg-profile {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .navbar-main {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .navheader-position {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
 
 .navbar-container {
   height: 6em;
-}
+
 
 .navbar-elements {
-  margin: 0 5px;
+    margin: 0 5px;
 }
 
 #glyph-settings{
@@ -106,8 +107,8 @@ button > i {
 }
 
 .profile-user {
-  width: 100%;
-  height: 12em;
+    width: 100%;
+    height: 12em;
 }
 
 .cover-page {
@@ -121,10 +122,9 @@ button > i {
   width: 10em;
   align-items: center;
   padding: 0;
-
 }
 .nav-tabs {
-  border-bottom: 3px solid #2978ca;
+    border-bottom: 3px solid #2978ca;
 }
 
 .tittle-profile {
@@ -141,7 +141,7 @@ margin-right: 5px;
 }
 
 .text-tabs-profile {
-  padding: 1em 2em;
+    padding: 1em 2em;
 }
 
 .btn-follow {
@@ -220,4 +220,9 @@ margin-top: 2em;
   background-color: #F8C848;
   border: 0;
   font-weight: bold;
+}
+
+.new-boxes{
+    word-wrap: break-word;
+    display: inline-block;
 }

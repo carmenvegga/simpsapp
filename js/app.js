@@ -6,9 +6,11 @@ $(document).ready(loadPage);
 //traer elementos del html
 var $buttonPublish = $("#btn");
 var $inputUser = $("#text");
+var $follow = $("#follow");
 
 function loadPage() {
     $inputUser.keyup(ablePublish);
+    $follow.click(changeText);
 }
 
 function ablePublish() {// con esta función se habilita el botón en caso de que el usuario ingrese algo
@@ -23,16 +25,17 @@ function ablePublish() {// con esta función se habilita el botón en caso de qu
 }
 
 function post() {
-    var $containerPost = $("#container-post");
-    var $input = $inputUser.val();
-    var $entry = $("<p />", {
-        "class": "new-boxes"
-    });
-    $entry.text($input);
-    $containerPost.prepend($input);
-    $("#publications").append($containerPost);
+    var containerPost = document.getElementById("container-post");
+    var input = document.getElementById("text").value;
+    var entry = document.createElement("p");
+
+    entry.appendChild(document.createTextNode(input));
+    containerPost.appendChild(entry);
+
     $buttonPublish.attr("disabled", true);
+}
 
-
-
+//función después de dar click en el follow cambia el texto a unfollow
+function changeText(){
+    $("#follow").text("unfollow");
 }

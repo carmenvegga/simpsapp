@@ -7,19 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Profile</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://use.fontawesome.com/62b5493aa6.js"></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
 </head>
 
 <body class="bg-profile">
-  <nav class="navbar navbar-static-top navbar-inverse navbar-main" role="navigation">
+  <nav class="navbar navbar-static-top navbar-default navbar-main" role="navigation">
     <div class="container-fluid">
       <!--mobile display-->
       <div class="navbar-header navheader-position">
         <div class="navbar-elements">
-          <span class="glyphicon glyphicon-cog"></span>
+          <span class="glyphicon glyphicon-cog" id= "glyph-settings"></span>
         </div>
         <div class="navbar-elements">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
@@ -42,8 +41,9 @@
 
   <section class="profile-user">
     <div class="cover-page">
-      <img class="center-block img-profile-user" src="http:fillmurray.com/100/100" alt="">
+      <img src="../assets/images/avatar-user.png" class="center-block img-responsive img-thumbnail img-profile-user" alt="">
     </div>
+
   </section>
 
   <section class="tabs-profile">
@@ -60,13 +60,13 @@
           <p>(imágenes)</p>
         </div>
         <div id="about-profile" class="tab-pane fade in active">
-          <h3>About</h3>
-          <h5 class="tittle-profile">Información</h5>
-          <h5 class="tittle-profile">Formación y empleo</h5>
-          <h5 class="tittle-profile">Amigos</h5>
-          <h5 class="tittle-profile">Capítulo favorito</h5>
+          <h4>@usuario</h4>
+          <h5  class="info-profile info-item"><span class="glyphicon glyphicon-user info-user"></span> <span>Información</span></h5>
+          <h5 class="info-profile"><span class="glyphicon glyphicon-lock info-user"></span>   Formación y empleo</h5>
+          <h5 class="info-profile"><span class="glyphicon glyphicon-user info-user"></span>   Amigos</h5>
+          <h5 class="info-profile"><span class="glyphicon glyphicon-expand info-user"></span>   Capítulo favorito</h5>
           <div class="btn-follow">
-            <button type="button" class="btn btn-primary btn-lg">Follow</button>
+            <button type="button" class="btn btn-primary btn-lg replacecolor-btn">Follow</button>
           </div>
 
         </div>
@@ -77,10 +77,8 @@
 
 
   <!-- link al app.js y a bootstrapJS.min -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="../js/app.js"></script>
 </body>
 

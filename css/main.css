@@ -1,96 +1,127 @@
 /*estilos*/
-*{
-    box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-    background-color: rgba(248, 220, 39, 0.85);
-    font-family: 'Montserrat', sans-serif;
+body {
+  height: 100%;
+  background-color: rgba(248, 220, 39, 0.85);
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* login view-styles*/
-.profile-header{
-    margin-top: 5vh;
+
+.profile-header {
+  margin-top: 5vh;
 }
 
-.profile-header-container{
-    margin: 0 auto;
+.profile-header-container {
+  width: 100%;
+  margin-top: 2em;
+}
+.login-user {
+  height: 100%;
+  padding: 1em;
 }
 
-img.img-profile{
-    padding-top: 15%;
-    border-radius: 50%;
-    border-color: deepskyblue;
+.img-profile {
+}
+.btn-default {
+  display: flex;
+  align-items: center;
 }
 
-#logo-face,
-#button-auth{
-    padding-top: 5vh;
+.login-fb {
+ padding: 1em 1.2em;
+ background: #4267b2;
+ color: #ffffff;
+ font-weight: bold;
 }
 
-#button-auth{
-    text-align: center;
+button > i {
+  margin-right: 5px;
+  font-size: 1em;
+}
+.forgot {
+  font-weight: bold;
+  margin: 13px auto;
+
 }
 
-#or{
-    padding-top: 7%;
-    font-size: 1.5em;
+/*
+#logo-face, #button-auth {
+  padding-top: 5vh;
+}
+*/
+
+#button-auth {
+  text-align: center;
 }
 
-#loginlogin{
-    margin-top: 3vh;
+#or {
+  margin: 20px auto;
+}
+
+#loginlogin {
+
 }
 
 /* timeline-styles*/
 
-#timeline-pic{
-    padding: 0em;
-    /*Nota: arreglar este margen, sigue creando conflicto en la version desktop*/
-    margin-top: -3em;
+#timeline-pic {
+  padding: 0em;
 }
 
 /* estilos profile view */
 .bg-profile {
   background-color: #ffffff;
 }
+
 .navbar-main {
   margin-bottom: 0;
 }
+
 .navheader-position {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.navbar-container{
+
+.navbar-container {
   height: 6em;
 }
 
 .navbar-elements {
   margin: 0 5px;
 }
+
+#glyph-settings{
+  color: #4e4e4e;
+}
 .glyphicon {
-  color: #ffffff;
+  color: #F8C848;
   margin-top: 10px;
   font-size: 2em;
 }
+
 .profile-user {
   width: 100%;
   height: 12em;
 }
 
 .cover-page {
-    background: #4ba6f9;
-    width: 100%;
-    height: 100%;
-}
-
-.cover-page {
+  background: #4ba6f9;
   width: 100%;
   height: 100%;
+  padding: 1em;
 }
+
 .img-profile-user {
-  padding: 2em;
+  width: 10em;
+  align-items: center;
+  padding: 0;
+
 }
 .nav-tabs {
   border-bottom: 3px solid #2978ca;
@@ -99,32 +130,94 @@ img.img-profile{
 .tittle-profile {
   font-weight: bold;
   font-size: 1em;
+  color: #F8C848;
+}
+.info-profile{
+  font-size: 1em;
+  font-weight: normal;
+}
+.info-user{
+margin-right: 5px;
 }
 
 .text-tabs-profile {
   padding: 1em 2em;
 }
 
-.btn-follow{
-    margin-top: 10em;
-    background-color: transparent;
-    text-align: center;
+.btn-follow {
+  margin-top: 5em;
+  background-color: transparent;
+  text-align: center;
+}
+.replacecolor-btn {
+  background: #4ba6f9;
+  border: 0;
+  padding: .5em 3em;
 }
 
 /***** timeline view- estilo a la parte de publicación y crear eventos*****/
-#publish-space{
-    margin-top: 3vh;
+
+#publish-space {
+   margin-top: 2em;
 }
 
-
-.new-boxes{
-    width: 100%;
-    height: 7vh;
-    background: #4ba6f9;
-    margin-top: 10vh;
-
-/* estilos timeline view */
 .redirect-profile {
+float: left;
+flex: 1;
+}
+.user-img-timeline {
+  width: 20%;
+}
+.photo-user-publish {
+  width: 5em;
+  margin-left: -2em;
+}
+.glyphicon-search{
+  color: #4e4e4e;
+}
 
+.fa-timeline{
+color: #337ab7;
+}
+.btn-publicar{
+  color: #fff;
+  background-color: #337ab7;
+}
+.img-user-eventos {
+  width: 12em;
+}
+.img-user-marketplace {
+  width: 7em;
+}
+.modal-body {
+  width: 80%;
+}
 
+.new-boxes {
+  width: 100%;
+  height: 7vh;
+  background: #4ba6f9;
+  margin-top: 10vh;
+}
+
+#exampleInputFile {
+  padding: 15px;
+}
+.modal-title {
+  color: #4ba6f9;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.btn-create-event {
+  text-align: center;
+}
+
+.img-content{
+margin-top: 2em;
+}
+
+.btn-yellow-simps{
+  background-color: #F8C848;
+  border: 0;
+  font-weight: bold;
 }
